@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy days - products</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="products.html" class="active">Shop</a>
+            <a href="productpage.html">Cart</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="image-container">
+            <img class="front-img" src="img/front.page.jpg" alt="boy in nature between mountains" style="width: 100%;">
+            <h1>Rainy days</h1>
+            <h2 class="h1">- Pushing the comfort zone</h2>
+        </div>
+    </header>
+    <main>
+        <button onclick="topFunction()" id="toTop" title="top"> To top</button>
+      <div class="product-form">
+        <h2>Products</h2>
+        <div class="product-search">
+            <div class="search">
+                <input type="search" id="search-button">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="categories">
+                <input type="radio" id="womans" class="category" name="category" value="17">
+                <label for="womans" class="label">Womans</label><br>
+                <input type="radio" id="mens" class="category" name="category" value="18">
+                <label for="mens" class="label">Mens</label><br>
+                <input type="radio" id="all" class="category" name="category" value="16">
+                <label for="all" class="label">All jackets</label><br>
+                <input type="radio" id="featured" class="category" name="category" value="true">
+                <label for="featured" class="label">Featured</label><br>
+            </div>
+            <div class="per-page">
+               <label class="label">Number per page</label><br>
+               <select class="per-page-selection">
+                   <option value="3">three</option>
+                   <option value="6">six</option>
+                   <option value="10">ten</option>
+               </select>
+            </div>
+        </div>
+      </div>
+      <div class="product-info"></div>
+     <div class="products"></div>
+     <div class="add-to-cart"></div>
+     
+    </main>
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="footer-container">
+            <h4>My account</h4>
+            <h4>Terms & conditions</h4>
+            <h4>Sustainability</h4>
+            <h4>Services</h4>
+        </div>
+        <div class="copyright-text">
+            &copy;2022 Rainy days, All rights reserved 1.0
+        </div>
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/toTop.js"></script>
+</body>
+</html>
